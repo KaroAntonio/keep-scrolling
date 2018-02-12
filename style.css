@@ -1,0 +1,32 @@
+body,html { margin: 0px; border: 0px; }
+
+#scrolling {
+	overflow:scroll;
+	width: 100vw;
+	height: 100vh;
+}
+
+#loading {
+	position: absolute;
+	right: 50vw;
+	top: 20vh;
+	width: 40px;
+	height: 40px;
+	z-index: 1000000; /* the highest */
+}
+
+.positioned {
+	font: serif;
+	font-size: 40px;
+	width: 100%;
+	text-align: center;
+	padding-top:50vh;
+}
+
+.inverted {
+	display: inline-block;
+	background:black;
+	color:white;
+}
+
+
